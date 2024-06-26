@@ -47,11 +47,13 @@ export function ItemCard({
             <img className={styles.image} src={buildIconURL(iconId)} alt={iconDescription} />
             <div className={styles.multipleTemps}>
               <Temperature
+                accessibilityLabel="High"
                 temperature={tempHigh}
                 unit="celsius"
               />
               <small>
                 <Temperature
+                  accessibilityLabel="Low"
                   temperature={tempLow}
                   unit="celsius"
                 />
