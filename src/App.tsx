@@ -11,10 +11,10 @@ import { ThreeHourlyForecast } from "./components/ThreeHourlyForecast";
 import { ViewValue } from "./components/ViewControl";
 import { ThreeHourResponse } from "./types";
 
-const OPEN_WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/forecast";
+export const OPEN_WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/forecast";
 // NOTE: in real-world app, this should be stored in a secure location, such as Git Secrets or Vercel Environment Variables
-const OPEN_WEATHER_API_KEY = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
-const CITY_COORDINATES = {
+export const OPEN_WEATHER_API_KEY = process.env.REACT_APP_OPEN_WEATHER_API_KEY;
+export const CITY_COORDINATES = {
   lat: 49.2827,
   lon: -123.1207,
 };

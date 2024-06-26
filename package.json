@@ -36,7 +36,7 @@
     "fs-extra": "^10.0.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.4.3",
+    "jest": "^27.0.1",
     "jest-resolve": "^27.4.2",
     "jest-watch-typeahead": "^1.0.0",
     "mini-css-extract-plugin": "^2.4.5",
@@ -88,6 +88,7 @@
       "last 1 safari version"
     ]
   },
+
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -144,5 +145,7 @@
       "react-app"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "msw": "^2.3.1"
+  }
 }

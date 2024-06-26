@@ -16,8 +16,16 @@ export function Temperature({
   temperature,
   unit,
 }: TemperatureProps) {
+  const buildAriaLabel = () => {
+    if (!accessibilityLabel) {
+      return `${temperature} degrees ${unit}`;
+    }
+
+    return `${accessibilityLabel}: ${temperature} degrees ${unit}`;
+  }
+
   return (
-    <span aria-label={`${accessibilityLabel}${accessibilityLabel && ': '}${temperature} degrees ${unit}`}>
+    <span aria-label={buildAriaLabel()}>
       {temperature}
       {!hideUnit && <span aria-hidden>°{UNIT_MAPPINGS[unit]}</span>}
     </span>
