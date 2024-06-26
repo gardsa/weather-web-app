@@ -1,6 +1,7 @@
 {
-  "name": "my-app",
+  "name": "weather-web-app",
   "version": "0.1.0",
+  "homepage": "https://gardsa.github.io/weather-web-app",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.16.0",
@@ -66,6 +67,8 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "scripts": {
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js"
@@ -88,7 +91,6 @@
       "last 1 safari version"
     ]
   },
-
   "jest": {
     "roots": [
       "<rootDir>/src"
@@ -146,6 +148,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "msw": "^2.3.1"
   }
 }
