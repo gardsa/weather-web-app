@@ -3,11 +3,17 @@
   flex-direction: column;
   gap: 0.5rem;
   margin-top: 1rem;
-
+  
   @media (min-width: 48em) {
     flex-direction: row;
     width: 100%;
     flex-wrap: nowrap;
     overflow-x: scroll;
+    -ms-overflow-style: none; /* for Internet Explorer, Edge */
+    scrollbar-width: none; /* for Firefox */
+    
+    &::-webkit-scrollbar {
+      display: none; /* for Chrome, Safari, and Opera */
+    }
   }
 }
