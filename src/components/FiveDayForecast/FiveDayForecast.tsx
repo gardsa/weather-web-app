@@ -9,7 +9,6 @@ type ForecastProps = {
 };
 
 export function FiveDayForecast({ list }: ForecastProps) {
-  // TODO: check this works correctly tomorrow
   const data = Object.entries(getFiveDayForecastData(list)).slice(0, 5);
 
   return (

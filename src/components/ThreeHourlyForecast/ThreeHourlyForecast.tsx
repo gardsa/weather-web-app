@@ -31,7 +31,6 @@ export function ThreeHourlyForecast({ list }: ThreeHourlyForecastProps) {
                   humidity={item.humidity}
                   iconDescription={item.iconDescription}
                   iconId={item.iconId}
-                  isFirstItem={index === 0}
                   temp={item.temp}
                   title={item.time}
                 />
@@ -47,7 +46,6 @@ export function ThreeHourlyForecast({ list }: ThreeHourlyForecastProps) {
             humidity={item.humidity}
             iconDescription={item.iconDescription}
             iconId={item.iconId}
-            isFirstItem={index === 0}
             temp={item.temp}
             title={item.time}
             subtitle={day}

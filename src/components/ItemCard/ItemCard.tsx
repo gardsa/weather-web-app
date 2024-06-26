@@ -7,7 +7,6 @@ type ItemCardProps = {
   feelsLike?: number,
   humidity?: number,
   iconDescription: string,
-  isFirstItem?: boolean,
   iconId: string,
   subtitle?: string,
   temp?: number,
@@ -21,7 +20,6 @@ export function ItemCard({
   humidity,
   iconDescription,
   iconId,
-  isFirstItem, // TODO: add extra styles for first item
   subtitle,
   temp,
   tempHigh,
