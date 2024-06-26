@@ -1,0 +1,84 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0.75rem;
+  background-color: var(--mantine-color-blue-1);
+  border-radius: 0.5rem;
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    flex-grow: 1;
+  }
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+
+  .title, .subtitle {
+    margin: 0;
+  }
+
+  @media (min-width: 48em) { 
+    text-align: center;
+  }
+}
+
+.image {
+  width: 3rem;
+  height: 3rem;
+
+  @media (min-width: 48em) {
+    width: 5rem;
+    height: 5rem;
+  }
+}
+
+.iconTemps {
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+}
+
+.iconSingleTemp {
+  display: flex;
+  align-items: center;
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+  }
+}
+
+.iconMultipleTemps {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  @media (min-width: 48em) {
+    flex-direction: column;
+    gap: 0;
+  }
+}
+
+.multipleTemps {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.feelsLikeTemp {
+  text-align: center;
+}
+
+.humidity {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  @media (min-width: 48em) {
+    flex-direction: row;
+    gap: 0.25rem;
+    margin-top: 1rem;
+  }
+}

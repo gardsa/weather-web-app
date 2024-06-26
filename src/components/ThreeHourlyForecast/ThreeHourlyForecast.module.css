@@ -1,0 +1,24 @@
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+
+  @media (min-width: 48em) {
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+  }
+}
+
+.day {
+  font-weight: 600;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}

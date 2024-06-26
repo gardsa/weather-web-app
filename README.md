@@ -16,6 +16,11 @@ If applicable, please provide the url where we can find and interact with your r
 
 How much time did you spend on the assignment? Normally, this is expressed in hours.
 
+Time spent thus far:
+
+- 1hr
+- 1hr
+
 ### Assumptions made
 
 Use this section to tell us about any assumptions that you made when creating your solution.

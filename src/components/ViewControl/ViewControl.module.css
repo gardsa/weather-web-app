@@ -1,0 +1,7 @@
+.control {
+  width: 100%;
+
+  @media (min-width: 48em) {
+    width: auto;
+  }
+}
