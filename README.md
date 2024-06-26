@@ -6,17 +6,19 @@ _Please do not supply your name or email address in this document. We're doing o
 
 ### Date
 
+_The date you're submitting this._
+
 26th June 2024
 
 ### Location of deployed application
 
-If applicable, please provide the url where we can find and interact with your running application.
+_If applicable, please provide the url where we can find and interact with your running application._
 
 The application can be viewed at: https://gardsa.github.io/weather-web-app/
 
 ### Time spent
 
-How much time did you spend on the assignment? Normally, this is expressed in hours.
+_How much time did you spend on the assignment? Normally, this is expressed in hours._
 
 - 30min on project setup and planning
 - 2hr on component development and styling
@@ -26,7 +28,7 @@ How much time did you spend on the assignment? Normally, this is expressed in ho
 
 ### Assumptions made
 
-Use this section to tell us about any assumptions that you made when creating your solution.
+_Use this section to tell us about any assumptions that you made when creating your solution._
 
 My plan was as follows:
 
@@ -50,7 +52,7 @@ As the task indicated the app should be both responsive, I designed it mobile-fi
 
 ### Shortcuts/Compromises made
 
-If applicable. Did you do something that you feel could have been done better in a real-world application? Please let us know.
+_If applicable. Did you do something that you feel could have been done better in a real-world application? Please let us know._
 
 I used create-react-app (CRA) instead of Next.js as I felt a solely React app would be more appropriate to handle the client-side fetching of the OpenWeather data. I have used Next.js in my professional work for the last couple of years, so was not aware CRA had been "deprecated" (see following links)
 
@@ -61,7 +63,7 @@ Had I seen this before I had committed to the CRA environment, I would have used
 
 ### Stretch goals attempted
 
-If applicable, use this area to tell us what stretch goals you attempted. What went well? What do you wish you could have done better? If you didn't attempt any of the stretch goals, feel free to let us know why.
+_If applicable, use this area to tell us what stretch goals you attempted. What went well? What do you wish you could have done better? If you didn't attempt any of the stretch goals, feel free to let us know why._
 
 **Add tests**
 
@@ -72,6 +74,8 @@ I used CRA and then ejected from it to support the component/theming library I w
 I set up the project with TypeScript from the beginning, using the CRA documentation to add the correct packages and configuration. I built all my components using TypeScript, and used types to define my component properties and enums where applicable for set values. I found an [npm package](https://www.npmjs.com/package/openweathermap-ts) for OpenWeather that provided some types I was going to use for the API response. However, it seems the package was not up-to-date with the response returned from the API provided in the task document, so I copied the types from one of the package files and amended the types to fit the correct response.
 
 ### Instructions to run assignment locally
+
+_If applicable, please provide us with the necessary instructions to run your solution._
 
 Install the dependencies:
 
@@ -91,7 +95,7 @@ Run the tests:
 
 ### What did you not include in your solution that you want us to know about?
 
-Were you short on time and not able to include something that you want us to know about? Please list it here so that we know that you considered it.
+_Were you short on time and not able to include something that you want us to know about? Please list it here so that we know that you considered it._
 
 I was disappointed not to get the tests working, as I feel I lost time on trying to fix the test configuration, rather than actually writing tests for all the components.
 
@@ -101,6 +105,6 @@ N/A
 
 ### Your feedback on this technical challenge
 
-Have feedback for how we could make this assignment better? Please let us know.
+_Have feedback for how we could make this assignment better? Please let us know._
 
 I think keeping this task very open to interpretation leaves room for the developer to make assumptions and choices, and then explain why they made those decisions. I have no suggestions on how to make the task better.
